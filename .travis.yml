@@ -27,9 +27,9 @@ matrix:
     - env: LUA_URL=https://www.lua.org/ftp/lua-5.3.5.tar.gz
     
     - env: LUA_URL=https://www.lua.org/ftp/lua-5.1.5.tar.gz
-    - arch: ppc64le
+      arch: ppc64le
     - env: LUA_URL=https://www.lua.org/ftp/lua-5.3.5.tar.gz
-    - arch: ppc64le
+      arch: ppc64le
 
 script:         .ci/script.sh
 before_cache:   .ci/before_cache.sh
